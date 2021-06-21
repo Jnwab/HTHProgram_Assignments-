@@ -18,5 +18,13 @@ def Full_price(Item1,Item2):
     if price>3:
         print(Item1,"is far too expensive here!")
 
+def Clerance(Retail_Product,discount):
+    Clerance_Price = Retail_prices[Retail_Product]/ discount
+    Retail_prices[Retail_Product] = Clerance_Price
+    return Clerance_Price
+
+Clerance("Chicken",2)
 
 Full_price("Chicken","Beef")
+
+shoe_inventory = {}
