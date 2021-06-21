@@ -19,8 +19,8 @@ def Full_price(Item1,Item2):
         print(Item1,"is far too expensive here!")
 
 def Clerance(Retail_Product,discount):
-    Clerance_Price = Retail_prices[Retail_Product]/ discount
-    Retail_prices[Retail_Product] = Clerance_Price
+    Clerance_Price = Retail_prices[Retail_Product]/ discount #You can make functions that dig into your own List.
+    Retail_prices[Retail_Product] = Clerance_Price #Then you have to restate what it is, a must.
     return Clerance_Price
 
 Clerance("Chicken",2)
